@@ -13,7 +13,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #FFF200; /* experiment with this #FFF200  #337eff*/ 
+    --clr-accent: #FFF200; /* experiment with this #FFF200  #337eff*/  
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -179,7 +179,7 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .section__title--experiences {
-    color: var(--clr-accent);
+    color: var(--clr-light);
     position: relative;
 }
 
