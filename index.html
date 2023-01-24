@@ -6,7 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> andy-1au Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">Andy Lau
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body>
@@ -32,31 +37,8 @@
             <h1 class="section__title section__title--intro"> <!-- modify section title from default-->
                 Hi, I am <strong>Andy Lau</strong> <!-- strong is bold tag --> 
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Currently Learning Spring Boot and AWS</p>
-            <img src="images/header_intro.jpg" alt="" class="intro__img"> <!-- Add Image -->
-        </section>
-
-        <!-- My Experiences -->
-        <section class="my-experiences" id="experiences">
-            <h2 class="section__title section__title--my-experiences">My Experiences</h2> <!-- might chance this later -->
-            <div class="experiences">
-                <div class="experience">
-                    <h3>GUIs and Web Apps</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- end of experience -->
-
-                <div class="experience">
-                    <h3>Custom 2048 Game</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- end of experience -->
-
-                <div class="experience">
-                    <h3>SDE @ Lincoln Financial Group</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- end of experience -->
-            </div> <!-- end of experiences -->
-            
-            <a href="#work" class="btn">My Work</a> <!-- change "My Work" for something else later???--> 
+            <p class="section__subtitle section__subtitle--intro">Placeholder</p>
+            <img src="images/headshot.jpg" alt="A plain headshot of me" class="intro__img">
         </section>
 
         <!-- About Me -->
@@ -73,76 +55,52 @@
                 </p>
             </div>
             
-            <img src="images/bridge_background.jpg" alt="Andy sitting in the foreground of a bridge">
+            <img src="images/bridge_background.jpg" alt="Andy sitting in the foreground of a bridge" class="about-me__img">
         </section>
 
-        <!-- My Work --> <!-- Not sure if this section will work, have to see later-->
-        <section class="my-work" id="work">
-            <h2 class="section__title">My Work</h2>
-            <p class="section__subtitle">Placeholder</p>
+        <!-- My Experiences -->
+        <section class="my-experiences" id="experiences">
+            <h2 class="section__title section__title--experiences">My Experiences</h2> <!-- might chance this later -->
+            <div class="experiences">
+                <div class="experience">
+                    <h3>GUIs and Web Apps</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- end of experience -->
 
-            <div class="portfolio"> <!-- Not sure if this section is applicable, might choose something else-->
-                <!-- Portfolio item 01 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 05 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 06 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 07 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 0 0-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-                </a>
-            </div>
+                <div class="experience">
+                    <h3>Custom 2048 Game</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- end of experience -->
+
+                <div class="experience">
+                    <h3>Lincoln Financial Group</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- end of experience -->
+            </div> <!-- end of experiences -->
+            
+            <a href="#work" class="btn">My Work</a> <!-- change "My Work" for something else later???--> 
         </section>
 
         <!-- Contact Me -->
-        <footer>
+        <footer class="footer">
             <a href="mailto:andyolau888@gmail.com" class="footer__link">andyolau888@gmail.com</a> <!-- Could delete this and add email to the list at the bottom instead -->
             <ul class="social-list">
-                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/andy-1au/">Linkedin</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://github.com/andy-1au">Github</a></li>
-                <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/andyrocks705/">Instagram</a></li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/andy-1au/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/andy-1au">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/andyrocks705/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
             </ul>
         </footer>
-
     </body>
 </html>
