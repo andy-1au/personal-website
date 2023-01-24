@@ -197,6 +197,10 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 4em;
 }
 
+.experiences h3 {
+    color: var(--clr-accent)
+}
+
 .experience {
     max-width: 500px;
     margin: 0 auto;
